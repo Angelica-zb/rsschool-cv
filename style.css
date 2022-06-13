@@ -1,0 +1,166 @@
+@import "./reset.css";
+@import "./fonts.css";
+body {
+    font-family: 'MontsReg', sans-serif;
+    font-size: 16px;
+    color: #555;
+    background-color: #fff;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #555;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container-nav {
+    background-color: aquamarine;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        padding-inline-start: 5px;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.section-item a {
+    color: #829985;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.section-item a:hover {
+    color: #4d2323;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.section {
+    width: 45%;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.section-name {
+    width: 80%;
+}
+
+.name-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .name-container {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+}
+
+.name {
+    font-size: 22px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: crimson;
+}
+
+.section-title {
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: coral;
+}
+
+.link {
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+}
+
+.link:hover {
+    color: #5d7260;
+}
+
+.foto {
+    width: 121px;
+    height: 95px;
+}
+
+.section-item {
+    position: relative;
+    padding-left: 30px;
+}
+
+.section-item:before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #829985;
+    border-radius: 50%;
+}
+
+.logo {
+    z-index: 5;
+    width: 150px;
+    height: 30px;
+    background-image: url(./assets/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    background-color: aquamarine;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
