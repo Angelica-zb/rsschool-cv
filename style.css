@@ -1,5 +1,20 @@
 @import "./reset.css";
 @import "./fonts.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.cv {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 body {
     font-family: 'MontsReg', sans-serif;
     font-size: 16px;
@@ -132,8 +147,9 @@ html {
 }
 
 .foto {
-    width: 121px;
-    height: 95px;
+    width: 80%;
+    height: 80%;
+    border-radius: 100px;
 }
 
 .site-container {
