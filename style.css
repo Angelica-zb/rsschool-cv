@@ -11,7 +11,7 @@ html {
 }
 
 .cv {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -57,10 +57,6 @@ a {
     }
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
@@ -102,7 +98,7 @@ html {
 }
 
 .section-name {
-    width: 80%;
+    width: 100%;
 }
 
 .name-container {
