@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.cv {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'MontsReg', sans-serif;
+    font-size: 16px;
+    color: #555;
+    background-color: #fff;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foto {
+    width: 80%;
+    height: 80%;
+    border-radius: 100px;
+}
